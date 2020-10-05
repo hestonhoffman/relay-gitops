@@ -5,4 +5,4 @@ steps:
 - name: hello-world
   image: relaysh/core
   input:
-  - echo "Hello world. Let's try this again, but again. Your message was $(ni get -p {.message})"
+  - echo "Hello world. Your message was $(ni get -p {.message})"
